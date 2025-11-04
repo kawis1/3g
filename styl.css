@@ -1,0 +1,77 @@
+h3 {
+    color:blue;
+}
+header {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+main{
+    border-color: rgb(red, green, blue);
+    border-style: solid;
+    border-width: 1px;
+}
+footer{
+    border-color: rgb(red, green, blue);
+    border-style: solid;
+    border-width: 1px;
+}
+p{
+    border-color: pink;
+    border-style: solid;
+    border-width: 1px;
+}
+.kaczka{
+    border-color: violet;
+    border-style: solid;
+    border-width: 1px;
+}
+#art1{
+    border-color:black;
+    border-style:solid;
+    background-color:yellow;
+    float: left;
+    width: 30%;
+}
+#art2{
+    border-color:black;
+    border-style:solid;
+    background-color:greenyellow;
+    float: left;
+    width: 40%;
+}
+#art3{
+    border-color:black;
+    border-style:solid;
+    background-color:orange;
+    float: left;
+    width: 25%;
+}
+#art4{
+    background-color: lightblue;
+    
+}
+#zyd1{
+    border-color:black;
+    border-style:solid;
+    background-color:violet;
+    float: left;
+}
+#zyd2{
+    border-color:black;
+    border-style:solid;
+    background-color:yellow;
+    float: left;
+}
+#zyd3{
+    border-color:black;
+    border-style:solid;
+    background-color:greenyellow;
+    float: left;
+}
+#zyd4{
+    border-color:black;
+    border-style:solid;
+    background-color:orange;
+    float: left;
+}
