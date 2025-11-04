@@ -1,48 +1,77 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        h3 {
-            color: blueviolet;
-            background-color: brown;
-            border: 5px solid gray; /* obramowanie solid- typ lini, black - kolor lini*/
-            border-color: green;
-            border: 1px;
-        }
-        article{
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <!-- style - formatujemy wygląd strony -->
 
-            border: 1px;
-            border-style: solid;
-            border-color: greenyellow;
-        }
-    </style>
-    <link rel="stylesheet" href="moje_style.css">
-    <title>szpont</title>
-</head>
-<body>
-    <head></head>
-    <main>
-    <article>
-        <h2>listy</h2>
-        <h3>listy nmerowane</h3>
-        przyklad kodu listy numerowanej 
-        <ol>
-            <li>elemnt 1</li> <!-- pierwszy elent-->
-            <li>emelnt 2</li>
-            <li>elemnt 3</li>
+        <style>
+    h3
+    {
+        color: red;
+        font-size: medium;
+    }
+    .jeden{
+        color:green;
+
+    }
+    #dwa{
+        color:blue;
+    }
+    .znaki{
+        color:brown;
+    }
+    #znaki{
+        color:salmon;
+    }
+        </style>
+        <link rel="stylesheet" href="styl.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- sekcja nagłówkowa - header -->
+        <header>Strona - PSI klasa 3g</header>
+        <!-- sekcja main - zawartość strony -->
+         <main>
+            <h1>Witaj na stronie</h1>
+            <h2>Podtytul sekcji</h2>
+            <h3 style="color: aqua;">Podpodtytuł sekcji</h3>
+            <h6>h6</h6>
+            <p style="color: lawngreen";>znak dolara &dollar; </p>
+            <p>To jest przykładowa strona HTML.</p>
+            <p class="kaczka">paragraf 1 </p>
+            <p class="kaczka">paragraf 2 </p>
+            <p class="kaczka">paragraf 3 </p>
+
+            <p>lista mieszana</p>
+            <ul class="jeden">
+                <li>element</li>
+            </ul>
+                <li>element2</li>
+                <ul>
+                <ol class="jeden">
+                    <l1 id="dwa">produkt</l1>
+                    <l1>produkt2</l1>
+                </ul>
             </ol>
-    <h3>listy defincji</h3>
-    <dl> znacznik obejmuje pary elemntow dt i dd</dl>
-        <dd>jezyk znazniko</dd>
-        <dt>css</dt>
-        <dd>kaskadowe arkusz stylow</dd>
-        <dt>PHP</dt>
-        <dd>jezyk skryptow</dd>
-        <h3>listy defincji </h3>
-    </article>
+            <p>lista numerowana</p>
+            <ul class="jeden">
+                <l1>element</l1>
+                <l1>element2</l1>
+            </ol>
+            <p>lista nienumerowana</p>
+            <ul class="jeden">
+                <li>elemetn1</li>
+                <li>element2</li>
+            </ul>
+            <p class="znaczki">małpka &#64</p>
     </main>
-    <footer>stone wykonal</footer>
+
+    <!-- sekcja stopki - footer -->
+     <footer>stopka strony &reg; 2025
+        <h3>element stopki</h3>
+     </footer>
+
+
+    </body>
 </html>
